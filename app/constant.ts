@@ -635,8 +635,9 @@ const siliconflowModels = [
   // "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
   // "meta-llama/Llama-3.3-70B-Instruct",
   // "THUDM/glm-4-9b-chat",
-  // "Pro/deepseek-ai/DeepSeek-R1",
-  // "Pro/deepseek-ai/DeepSeek-V3",
+  "Pro/deepseek-ai/DeepSeek-R1",
+  "Pro/deepseek-ai/DeepSeek-V3",
+  "black-forest-labs/FLUX.1-schnell",
 ];
 
 let seq = 1000; // 内置的模型序号生成器从1000开始
@@ -813,7 +814,7 @@ export const internalAllowedWebDavEndpoints = [
   "https://app.koofr.net/dav/Koofr",
 ];
 
-export const DEFAULT_GA_ID = "G-89WN60ZK2E";
+export const DEFAULT_GA_ID = "";
 
 export const SAAS_CHAT_URL = "https://nextchat.dev/chat";
 export const SAAS_CHAT_UTM_URL = "https://nextchat.dev/chat?utm=github";
